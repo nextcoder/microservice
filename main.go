@@ -9,5 +9,6 @@ func main() {
 	router.LoadHTMLGlob("templates/*")
 	router.GET("/", showIndexPage)
 	router.GET("/article/view/:article_id", getArticle)
+
 	router.Run()
 }
