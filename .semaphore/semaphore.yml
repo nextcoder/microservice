@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: Install
           commands:
-            - sem-version go 1.11
+            - sem-version go 1.22.1
             - export GO111MODULE=on
             - export GOPATH=~/go
             - 'export PATH=/home/semaphore/go/bin:$PATH'
@@ -23,7 +23,7 @@ blocks:
       jobs:
         - name: Unit tests
           commands:
-            - sem-version go 1.18
+            - sem-version go 1.22.1
             - export GO111MODULE=on
             - export GOPATH=~/go
             - 'export PATH=/home/semaphore/go/bin:$PATH'
