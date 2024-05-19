@@ -35,5 +35,5 @@ blocks:
       jobs:
         - name: Build
           commands:
-            - go build -v -o gin
-            - artifact push project --force gin
+            - go build -v -o app
+            - artifact push project --force app
